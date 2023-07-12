@@ -1,0 +1,13 @@
+server {
+        listen 80;
+        listen [::]:80;
+
+        root /var/www/frontend_victis/build;
+        index index.html;
+
+        server_name notreDomaine;
+
+        location / {
+                try_files $uri /index.html;
+        }
+}
