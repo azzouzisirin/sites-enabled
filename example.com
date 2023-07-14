@@ -1,7 +1,7 @@
  server {
     listen 80;
     listen [::]:80;
-    server_name  192.168.1.43;
+    server_name  86.244.189.89;
 
     root /var/www/example.com;
     index index.html;
