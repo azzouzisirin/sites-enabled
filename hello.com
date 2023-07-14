@@ -1,6 +1,5 @@
  server {
     listen 80;
-    listen [::]:80;
     server_name  86.244.189.89;
 
      location /exp1 {
